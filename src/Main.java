@@ -11,23 +11,25 @@ public class Main {
            } else if (birthMonth == 3) {
                System.out.println("March ");
            } else if ("birthMonth == 4") {
-               System.out.println("April" );
+               System.out.println("April ");
            } else if ("birthMonth == 5") {
-               System.out.println("May" );
+               System.out.println("May ");
            } else if ("birthMonth == 6") {
                System.out.println("June ");
            } else if ("birthMonth == 7") {
-               System.out.println("March");
+               System.out.println("July ");
            } else if ("birthMonth == 8") {
-               System.out.println("March");
+               System.out.println("August ");
            } else if ("birthMonth == 9") {
-               System.out.println("March");
+               System.out.println("September ");
            } else if ("birthMonth == 10") {
-               System.out.println("March");
+               System.out.println("October ");
            } else if ("birthMonth == 11") {
-               System.out.println("March");
+               System.out.println("November ");
            } else if ("birthMonth == 12") {
-               System.out.println("March");
-           }
+               System.out.println("December ");
+           } else
+               System.out.println("Your enter an incorrect Month value: " + birthMonth);
+
     }
 }
